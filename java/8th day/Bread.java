@@ -1,0 +1,19 @@
+import java.io.*;
+public class Bread{
+public static void main(String args[]) throws IOException
+{
+
+DataInputStream dis = new DataInputStream (new FileInputStream("D:\\java\\8th day\\test.txt"));
+DataOutputStream dos = new DataOutputSream(new FileOutputStream("D:\\java\\8th day\\test1.txt"));
+
+String count;
+while(count = dis.readLine()!=null){
+String data = count.toUpperCase();
+System.out.println(data + " " );
+dos.writeBytes (data + ", ");
+}
+dis.close();
+dos.close();
+}
+}
+

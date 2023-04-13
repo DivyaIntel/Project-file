@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script runat="server" language="javascript">
+        Platform.Load("Core","1");
+        var jsonpost = '{"id": "id1","formid" : "formid","data":[ {"column_name":"Full Name","string_value":"John Doe"},{"column_name":"User Phone", "string_value":"12345678"},{"column_name":"User Email", "string_value":"abc@123.com"}],}'
+        var json = Platform.Function.ParseJSON(jsonpost);  
+        Write("<br>jsonpost: "+jsonpost);
+        Write("<br>parsed and stringified json: "+Stringify(json));    
+        var lastname = json.data[0].string_value
+        var firstname = json.data[1].string_value
+        var email = json.data[2].string_value
+        Write("<br>fullName: "+ json.data[0].string_value)
+        Write("<br>phone: "+ json.data[1].string_value)
+        Write("<br>email: "+ json.data[2].string_value)      
+        </script>
+        
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,14 @@
+#one{
+   background-image:url("green photo.jpg");
+   width: 200px;
+   height: 300px;
+}
+#two{
+    border: 3px solid green;
+    color:beige;
+    padding: 10px;
+    margin: 20% 20%;
+}
+
+
+

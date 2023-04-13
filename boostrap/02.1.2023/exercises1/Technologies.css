@@ -1,0 +1,16 @@
+.but{
+    border:1px solid #d7dfe9 !important;
+}
+.but1{
+    background-color:#5752ab !important;
+     border: none;
+     color: #ffffff !important;
+}
+.card-title{
+    color: #5752ab !important;
+    font-family:'Bree Serif';
+    font-weight: 800;
+}
+.para{
+    color: #323f4b;
+}

@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pattern</title>
+    <script>
+        function u_name(name)
+        {   
+           var a=document.getElementById("name").value;
+           const pattern = /^([A-Z]{1}[a-z]{1,10}[@][a-z]{5,8})$/;
+           if(a.match(pattern))
+           {
+            var b=document.getElementById("pwd");
+            b.innerHTML="pattern matched" ;
+            b.style.color="Green";
+               
+           }
+           else{
+            var c=document.getElementById("pwd");
+            c.innerHTML="pattern not matched";
+            c.style.color="Red";
+           }   
+        }
+    </script>
+</head>
+<body>
+       <label>Enter the UserName :</label>
+       <input type="text" id="name" onkeypress="u_name()" > 
+       <span id="pwd"></span>
+</body>
+</html>

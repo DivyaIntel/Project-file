@@ -1,0 +1,21 @@
+#first{
+    line-height: 4mm;  
+    padding-left: 950px;
+}
+
+#photo{
+    background:url('flower.jpg');
+    width: 80%;
+    height: 60vh;
+    background-size: cover;
+    margin-left: 80px;
+    border-collapse: collapse;
+
+}
+.class0{
+    font-size:30px;
+    color:rgb(233, 44, 107);
+}
+.class1{
+    padding-left: 100px;
+}

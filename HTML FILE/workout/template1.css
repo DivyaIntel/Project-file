@@ -1,0 +1,12 @@
+body{
+    background-image:url("green leaf.webp");
+    background-size:cover;
+    padding:30%;   
+}
+div{
+    color:white;     
+}
+button{
+    -webkit-background-clip:text;
+    color:white;
+}

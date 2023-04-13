@@ -1,0 +1,41 @@
+import java.io.*;
+public class Name
+{
+  public static void main(String agrs[])
+{
+ int Sub()
+{
+ int a=1,b=2;
+ int c=a-b;
+ return c;
+}
+ float Add()
+{
+ float a=5,b=7;
+ float c=a+b;
+ return c;
+}
+ string Mult()
+{
+ string a="Welcome", b="Java";
+}
+{
+ Char Div()
+{
+ char a='x',y='b';
+ char c=a+b;
+ return c;
+}
+Public static void main(string[] args)
+{
+Name obj=new object();
+obj.Sub();
+obj.Add();
+obj.Mult();
+obj.Div();
+{
+System.out.println("Subtraction of integers."+c);
+
+
+
+

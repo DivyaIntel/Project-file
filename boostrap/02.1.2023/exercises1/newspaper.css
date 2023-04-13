@@ -1,0 +1,11 @@
+.card-text{
+    font-size: 12px;
+    color: #323f4b;
+}
+.bgcol{
+    background-color:#ffffff;
+}
+.but{
+    background-color:#323f4b !important;
+    color: #ffffff !important;
+}

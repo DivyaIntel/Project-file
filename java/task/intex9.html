@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function add()
+        {
+            var a_value = parseInt(document.getElementById("e_num").value);
+            var b_op = '<option>Numbers</option>';
+            var c = document.getElementById("value");
+            for (var i = 1; i <= a_value; i++)
+            {
+                b_op+=('<option value=' + i + '>' + i + '</option>');
+            }
+            c.innerHTML = b_op;
+            var button1 = document.getElementById("c_button");
+            button1.removeAttribute("disabled");
+        }
+        function dis()
+        {
+            var button1 = document.getElementById("c_button");
+            button1.setAttribute("disabled",true);
+        }
+        function create()
+        {
+            var a_value = document.getElementById("value").value;
+            if ( a_value == "Numbers" )
+            {
+                alert("Select a Number from DropDown....!");
+            }
+            else
+            {
+            var div = document.getElementById("added");
+            var st ='<label for="noOfUser">Select the No of Users to be Created : </label>';
+            var c = '<select name="noOfUser" id="Select_Box_2">';
+            var b_op= '<option>Numbers</option>';
+            for ( var i = 1; i <= a_value; i++ )
+            {
+                b_op += ('<option value=' + i + '>' + i + '</option>');
+                }
+                st+= (c + b_op + '</select>');
+            }
+            var cr_btn = '<input type="button" id="cr_btn" value="Create Users" onclick="createforms()">';
+            st += cr_btn;
+            div.innerHTML = st;
+        }
+        function createforms()
+        {
+            var forms = '<form id="user_forms"></form>';
+            var form = document.getElementById("forForms");
+            var a_value = parseInt(document.getElementById("Select_Box_2").value);
+            var i = 1;
+            
+            var cmds = "";
+            for( var i = 1; i <= a_value; i++ )
+            {
+                var lbu = '<label for="uname">Enter The User Name for ' + i + ' : </label>';
+                var inbu = '<input type="text" name="uname" id="UName' + i + '">';
+                var lbp = '<label for="psw">Password : </label>';
+                var inbp = '<input type="password" name="psw" id="psw' + i + '" disabled>';
+                var br = '<br>';
+                cmds += lbu + inbu + lbp + inbp + br;
+            }
+            form.innerHTML = cmds;
+        }
+    </script>
+</head>
+<body onload="dis()">
+    <div>
+        <form>
+            <label for="e_num">Enter the Number : </label>
+            <input type="number" id="e_num" name="e_num">
+            <input type="button" id="a_button" value="Add" onclick="add()" onkeypress="add()"><br>
+            <select id="value"></select>
+            <input type="button" id="c_button" value="Create" onclick="create()">
+            <div id="added"></div>
+            <div id="forForms"></div>
+            <table id="table"></table>
+        </form>
+    </div>
+</body>
+</html>

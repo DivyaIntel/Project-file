@@ -1,0 +1,44 @@
+*{
+  background-color: antiquewhite;
+}
+
+#headone
+{
+  color: rgb(92, 2, 2);  
+  font-style: unset;
+  font-size: 45px;
+}
+
+#headtwo
+{
+  color: rgba(85, 49, 2, 0.973);
+  font-size: 34px;
+  background-color: rgb(241, 147, 202);   
+}
+
+#head3
+{
+
+font-size: 28px;
+background-color: rgb(204, 132, 23);
+  
+}
+#head4 {
+  color: rgb(13, 10, 170);
+  font-size: 22px;
+    }
+#head5{
+  text-align: center;
+}    
+
+
+
+.heading
+{
+    color:blue;
+    font-style: italic;
+    font-size: 35px;
+}
+.one{
+color:black;
+}

@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document5</title>
+    <script>
+        function data()
+        {
+         var a=document.getElementById("name1").value;
+         var b=document.getElementById("name2").value;
+         var c=document.getElementById("dob").value;
+         var d=document.getElementById("pwd").value;  
+         var object = 
+          [{
+             "name1":a,
+             "name2":b,
+             "dob":c,
+             "pwd":d
+          }];
+            for(list in object)
+          {
+            console.log(object);
+          }
+        }  
+    </script>
+</head>
+<body>
+   <label>First Name</label>
+   <input type="text" id="name1">
+   <label>Last Name</label>
+   <input type="text" id="name2">
+   <label>Date of Birth</label>
+   <input type="date" id="dob">
+   <label>Password</label>
+   <input type="password" id="pwd">
+   <input type="button" value="Click" onclick="data()">
+</body>
+</html>

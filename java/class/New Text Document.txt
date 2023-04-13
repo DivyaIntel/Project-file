@@ -1,0 +1,30 @@
+import java.until.*;
+
+class One
+{
+public static void main(String args[])
+{
+int a;
+int b;
+int c;
+int temp;
+Scanner sc=new Scanner(Styem.in);
+a=sc.nextInt();
+b=sc.nextInt();
+c=sc.nextInt();
+if (a>b)
+{
+System.out.println(" Enter the value of a ");
+}
+else
+{
+System.out.println("Enter the value of b");
+}
+if(c>temp)
+{
+System.out.println("Enter the value of c" + temp);
+}
+}
+
+
+

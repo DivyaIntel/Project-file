@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="utf-8">
+        <title> RESUME </title>
+        </head>  
+    <body>
+        <center><h1 id="page_title">Resume</h1></center>
+        <section name="Personal Information">
+            <table>
+               <tr>
+                  <td>
+                    <figure>
+                       <img src="photo.jpg">
+                       <figcaption>Ms. S. Rani</figcaption>
+                    </figure>
+                   </td>
+                <td>
+                        <img src="line.jpg">
+                <dl>
+                 <dt>Personal Information</dt>
+                 <dd>Gender        : Male</dd>
+                 <dd>DOB           : 05-04-2001</dd>
+                 <dd>Address       : Coimbatore</dd>
+                 <dd>Mobile        : 987654321</dd>
+                 <dd>Marital status: single </dd>
+                </dl>  
+                </td>
+               </tr> 
+            </table>
+            </section>
+            <section name="Career Objective">
+            <center><h4>CAREER OBJECTIVE</h4></center>
+            <p> <pre>To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me achieve organizational as well as personal goals. To integrate my knowledge & utilizing my technical & analytical skills to explore the future growth of the organization</pre></p>
+            <img src="line.jpg">
+            </section>
+            <h3>Skills</h3>
+            <ol type="1" >
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>JavaScript</li>
+               <li>React</li>
+            </ol>
+         <h3>Eduction details</h3>
+               <table>
+                  <thead>
+                  <tr>
+                     <th>S.No</th> 
+                     <th>Course</th>
+                     <th>Institution</th>
+                     <th>Board/University</th>
+                     <th>Year of Passing</th> 
+                     <th>Percentage</th>
+                     <th>Grade</th>
+                  </tr>
+                  </thead>
+                  <tr>
+                     <td>1</td>
+                     <td>SSLC</td>
+                     <td>Angappa Matric Hr. Sec School Coimbatore</td>
+                     <td>State Board</td>
+                     <td>2017</td>
+                     <td>74%</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td>2</td>
+                     <td>HSC</td>
+                     <td>Angappa Matric Hr. Sec School Coimbatore</td>
+                     <td>State Board</td>
+                     <td>2019</td>
+                     <td>87%</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td>3</td>
+                     <td>BCA</td>
+                     <td>KG College of Arts and Science College, Coimbatore</td>
+                     <td>Bharathiar University</td>
+                     <td>2022</td>
+                     <td>54%</td>
+                     <td></td>
+                  </tr>
+              </table>
+              <section id="Project"> <h3>Projects</h3>
+              <details>
+                 <summary><a href="https://github.com/DivyaIntel/Repo1" target="_blank">Project 1: Updating Fintechnews.com (Fintech News Inc.) BackendDeveloper </a></summary>
+                 <p>
+                    <dl>
+                       <dt>Title</dt>
+                       <dd>Updating fintechnews.com (Fintech News Inc.) BackendDeveloper</dd>
+                       <dt>Duration:</dt>
+                       <dd>Three months</dd>
+                       <dt>Technologies Used:</dt>
+                    </dl>
+                      <ol type="1">
+                        <li>Python</li>
+                        <li>PHP</li>
+                        <li>Ruby</li>
+                        <li>JavaScript></li>
+                    </ol>
+                    <dl>
+                       <dt>Description</dt>
+                     </dl>
+                    <ul type="circle">
+                       <li>Creacted a content management system serving as a client interface that reduced download times by 30%.</li>
+                       <li>Developed new admin panel, which improved internal operating efficiency by over 40%.</li>
+                       <li>Created comprehensive testing regime using RSpec to ensure bug-free code.</li>
+                       <li>Rebuit entire website with up to date technologies and frameworks.</li>
+                    </ul>
+                 </p>
+
+              </details>
+            <details>
+               <summary><a href="https://github.com/DivyaIntel/Repo1" target="_parent">Project 2: Updating Fintechnews.com (Fintech News Inc.) BackendDeveloper</a></summary>
+               <p>
+               <dl>
+                  <dt>Title</dt>
+                  <dd>Updating fintechnews.com (Fintech News Inc.) BackendDeveloper</dd>
+                  <dt>Duration:</dt>
+                  <dd>Three months</dd>
+                  <dt>Technologies Used:</dt>
+               </dl>
+               <ol type="1">
+                  <li>Python</li>
+                  <li>PHP</li>
+                  <li>Ruby</li>
+                  <li>JavaScript></li>
+               </ol>
+               <dl>
+                  <dt>Description</dt>
+               </dl>
+               <ul type="circle">
+                  <li>Creacted a content management system serving as a client interface that reduced download times by 30%.</li>
+                  <li>Developed new admin panel, which improved internal operating efficiency by over 40%.</li>
+                  <li>Created comprehensive testing regime using RSpec to ensure bug-free code.</li>
+                  <li>Rebuit entire website with up to date technologies and frameworks.</li>
+               </ul>
+               </p>
+            
+            </details>
+            <details>
+               <summary><a href="https://github.com/DivyaIntel/Repo1" target="_parent">Project 3: Updating Fintechnews.com (Fintech News Inc.) BackendDeveloper</summary>
+               <p>
+               <dl>
+                  <dt>Title</dt>
+                  <dd>Updating fintechnews.com (Fintech News Inc.) BackendDeveloper</dd>
+                  <dt>Duration:</dt>
+                  <dd>Three months</dd>
+                  <dt>Technologies Used:</dt>
+               </dl>
+               <ol type="1">
+                  <li>Python</li>
+                  <li>PHP</li>
+                  <li>Ruby</li>
+                  <li>JavaScript></li>
+               </ol>
+               <dl>
+                  <dt>Description</dt>
+               </dl>
+               <ul type="circle">
+                  <li>Creacted a content management system serving as a client interface that reduced download times by 30%.</li>
+                  <li>Developed new admin panel, which improved internal operating efficiency by over 40%.</li>
+                  <li>Created comprehensive testing regime using RSpec to ensure bug-free code.</li>
+                  <li>Rebuit entire website with up to date technologies and frameworks.</li>
+               </ul>
+               </p>        
+            </details>
+   </section>
+         <section id="languages_know">
+            <h3>Languages Known</h3>
+            <dl>
+               <dt>
+               <dd>Tamil</dd>
+               <dd>English</dd>
+               <dd>Hindi</dd>
+               </dt>
+            </dl>
+         </section>
+     </body>
+</html>
+

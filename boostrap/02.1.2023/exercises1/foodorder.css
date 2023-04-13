@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab:wght@800&display=swap');
+.bgcolor{
+    background-color:#f6c56e;
+    border-radius: 5% 5% 0 0 ;
+}
+.but{
+    background-color:#ffffff;
+    color:#323f4b;
+}
+.main{
+    font-family:'Bree Serif' !important;
+    font-size: 28px;
+}
+.rod{
+    font-family:'Roboto' !important; 
+}
+p{
+    font-size: 13px;
+}

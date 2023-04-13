@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <script>
+        function add(){
+    var a=parseInt(document.getElementById("num1").value);
+    var b=parseInt(document.getElementById("num2").value);
+    var c=a+b;
+    document.getElementById("value").innerHTML="Result"+c;
+}
+function sub(){
+    var a=parseInt(document.getElementById("num1").value);
+    var b=parseInt(document.getElementById("num2").value);
+    var c=a-b;
+    document.getElementById("value").innerHTML="Result "+c;
+    
+}
+function mul(){
+    var a=parseInt(document.getElementById("num1").value);
+    var b=parseInt(document.getElementById("num2").value);
+    var c=a*b;
+    document.getElementById("value").innerHTML="Result: "+c;
+}
+function div(){
+    var a=parseInt(document.getElementById("num1").value);
+    var b=parseInt(document.getElementById("num2").value);
+    var c=a/b;
+    document.getElementById("value").innerHTML="Result: "+c;
+}
+</script>
+
+</head>
+    <body>
+            <label>Enter First value</label>
+            <input type="text" id="num1">
+            <label for="">Enter Second value</label>
+            <input type="text" id="num2"><br><br>
+
+            <input type="button" name="addi" id="add1" value="Addition" onclick="add()">
+            <input type="button" name="subt" id="sub1" value="Subtraction" onclick="sub()">
+            <input type="button" name="mult" id="mul1" value="Multiply" onclick="mul()">
+            <input type="button" name="divi" id="div1" value="Division"onclick="div()"><br><br>
+            <button id="value">Result</button>
+    </body>
+</html>

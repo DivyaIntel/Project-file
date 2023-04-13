@@ -1,0 +1,15 @@
+.bgm{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+}
+.col-f{
+    color: white;
+    font-size: 80px;
+}
+.bor{
+    border: none;
+    border-bottom: 1px solid white;
+    padding:10px;
+}
+.fontp{
+    color: white;
+}

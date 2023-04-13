@@ -1,0 +1,19 @@
+public class array
+{
+public static void main(String agrs[])
+{
+int tamil=60;
+int English=90;
+int maths=80;
+int total=tamil+English+maths;
+System.out.println(total);
+if(Total>105)
+{
+System.out.println("Pass");
+}
+else
+{
+System.out.println("Fail");
+}
+}
+}

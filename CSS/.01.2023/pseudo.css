@@ -1,0 +1,22 @@
+.first:hover{
+    font-size: large;
+    color: red;
+    font-style: italic;
+}
+
+.second:hover{
+    font-size: medium;
+    color: blue;
+    font-style: normal;
+}
+
+p:first-child b{
+    font-size: larger;
+    color: rgb(40, 219, 70);
+}
+
+p b:last-child {
+    font-style: italic;
+    color: blueviolet;
+}
+

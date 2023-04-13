@@ -1,0 +1,13 @@
+public class Shift
+{
+
+public static void main(String agrs[])
+{
+System.out.println("Welcome");
+Scanner sc=new scanner(System.in);
+System.out.print("Enter X value: ");
+int x=sc.nextInt();
+System.out.println("Enter Y value: ");
+int y=sc.nextInt();
+}
+}

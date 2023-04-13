@@ -1,0 +1,16 @@
+import java.util.*;
+
+class Reverse
+{
+public static void main(String args[]);
+{
+int a;
+Scanner sc=new Scanner(System.in);
+a=in.nextInt();
+for(i=0; i<=5; i++)
+
+}
+}
+
+
+

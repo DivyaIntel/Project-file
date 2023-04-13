@@ -1,0 +1,28 @@
+#progress{
+    background-color: rgb(19, 214, 19);
+    border: none;
+}
+#open{
+    background-color: yellow;
+    border: none;
+}
+#Onhold{
+    background-color:rgb(180, 13, 13);
+    border: none;
+}
+tr:nth-child(even){
+    
+    background-color: #f2f2f2;
+}
+
+th{
+    width:170px;
+    height: 70px;;
+}
+table,td,th{
+  border-collapse: collapse;
+  text-align: center;
+}
+h1{
+    text-align: center;
+}

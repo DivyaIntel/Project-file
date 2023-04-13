@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Scores
+{
+public static void main(String agrs[])
+{
+int a[4]={10,20,30,40,50};
+System.out.println("Enter the Five Value=" + a[4]);	
+}
+}

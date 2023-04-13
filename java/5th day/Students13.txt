@@ -1,0 +1,41 @@
+import java.util.*;
+
+class Students13
+{
+    String name;
+    int age;
+    String qualification ;
+    int assessmentMarks;
+public void display()
+{
+   Scanner sc=new Scanner(System.in);
+   System.out.println("Enter the Student Name : ");
+   System.out.println("1. Divya");
+   System.out.println("2. Sindhu");
+   int student=sc.nextInt();
+switch (student)
+{
+case 1:
+    Name="Divya";
+    Age = 30;
+    Qualification = "Bsc CS";
+    AssessmentMarks = 100;
+    break;
+case 2:
+    Name ="Sindhu";
+    Age = 28;
+    Qualification "Msc";
+     AssessmentMarks = 50;
+     break;
+default:
+    System.out.println("student");
+    break;
+
+    
+
+
+
+
+
+
+

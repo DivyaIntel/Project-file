@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Table
+{
+public static void main(String agrs[])
+{
+int[][] x;
+x = new int[3][4];
+Scanner obj = new Scanner(System.in);
+}
+}

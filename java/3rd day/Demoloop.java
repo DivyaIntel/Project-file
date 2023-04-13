@@ -1,0 +1,14 @@
+import java.util.*;
+public class Demoloop
+{
+  public static void main(String agrs[])
+{
+int i=5;
+do
+{
+i++;
+System.out.println(i);
+}
+while(i<=5);
+}
+}

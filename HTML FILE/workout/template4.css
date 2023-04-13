@@ -1,0 +1,15 @@
+.class0{
+    background: url('background.jpg');
+    width:900px;
+    height:450px;
+    margin:0 auto;
+    padding-left: 25%;
+    padding-top: 10%; 
+}
+.class1{
+    width:750px;
+    height:450px;  
+    background:url("motherday.jpg");
+    background-repeat:no-repeat; 
+    padding-left:150px;
+}

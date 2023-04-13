@@ -1,0 +1,23 @@
+public class array1
+{
+public static void main(String agrs[])
+{
+try
+{
+int tamil=60;
+int English=90;
+int maths=80;
+int total=tamil+English+maths;
+System.out.println(total);
+if(Total>600)
+}
+catch(ArrayIndexOutOfBoundsException a)
+{
+System.out.println("Pass");
+}
+else
+{
+System.out.println("Fail");
+}
+}
+}
